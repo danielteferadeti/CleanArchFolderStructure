@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArch.Application.Features._Indices.DTOs
+namespace BlogApp.Application.Features._Indices.DTOs
 {
     public class Create_IndexDto : I_IndexDto
     {

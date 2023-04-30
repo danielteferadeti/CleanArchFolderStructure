@@ -1,4 +1,4 @@
-﻿using CleanArch.Application.Features._Indices.DTOs;
+﻿using BlogApp.Application.Features._Indices.DTOs;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArch.Application.Features._Indices.DTOs.Validators
+namespace BlogApp.Application.Features._Indices.DTOs.Validators
 {
     public class Update_IndexDtoValidator : AbstractValidator<_IndexDto>
     {

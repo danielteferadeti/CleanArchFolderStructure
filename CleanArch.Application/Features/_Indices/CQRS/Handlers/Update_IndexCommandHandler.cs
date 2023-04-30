@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using CleanArch.Application.Contracts.Persistence;
-using CleanArch.Application.Exceptions;
-using CleanArch.Application.Features._Indices.CQRS.Commands;
-using CleanArch.Application.Features._Indices.DTOs.Validators;
+using BlogApp.Application.Contracts.Persistence;
+using BlogApp.Application.Exceptions;
+using BlogApp.Application.Features._Indices.CQRS.Commands;
+using BlogApp.Application.Features._Indices.DTOs.Validators;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArch.Application.Features._Indices.CQRS.Handlers
+namespace BlogApp.Application.Features._Indices.CQRS.Handlers
 {
     public class Update_IndexCommandHandler : IRequestHandler<Update_IndexCommand, Unit>
     {

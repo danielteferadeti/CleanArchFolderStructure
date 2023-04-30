@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using CleanArch.Application.Features._Indices.DTOs;
-using CleanArch.Domain;
+using BlogApp.Application.Features._Indices.DTOs;
+using BlogApp.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArch.Application.Profiles
+namespace BlogApp.Application.Profiles
 {
     public class MappingProfile: Profile
     {

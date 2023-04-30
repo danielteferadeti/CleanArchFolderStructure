@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CleanArch.Domain;
+using BlogApp.Domain;
 
-namespace CleanArch.Persistence.Configurations.Entities
+namespace BlogApp.Persistence.Configurations.Entities
 {
     public class LeaveTypeConfiguration : IEntityTypeConfiguration<_Index>
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArch.Application.Features.Common
+namespace BlogApp.Application.Features.Common
 {
     public abstract class BaseDto
     {

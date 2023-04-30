@@ -5,10 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CleanArch.Domain;
-using CleanArch.Domain.Common;
+using BlogApp.Domain;
+using BlogApp.Domain.Common;
 
-namespace CleanArch.Persistence
+namespace BlogApp.Persistence
 {
     public class CleanArchDbContext : DbContext
     {

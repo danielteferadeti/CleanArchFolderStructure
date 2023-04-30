@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FluentValidation.Results;
 
-namespace CleanArch.Application.Exceptions
+namespace BlogApp.Application.Exceptions
 {
     public class ValidationException : ApplicationException
     {

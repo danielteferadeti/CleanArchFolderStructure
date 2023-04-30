@@ -1,13 +1,13 @@
-﻿using CleanArch.Application.Features._Indices.CQRS.Commands;
-using CleanArch.Application.Features._Indices.CQRS.Queries;
-using CleanArch.Application.Features._Indices.DTOs;
-using CleanArch.Application.Responses;
+﻿using BlogApp.Application.Features._Indices.CQRS.Commands;
+using BlogApp.Application.Features._Indices.CQRS.Queries;
+using BlogApp.Application.Features._Indices.DTOs;
+using BlogApp.Application.Responses;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace CleanArch.Api.Controllers
+namespace BlogApp.Api.Controllers
 {
     [Route("api/[Controller]")]
     [ApiController]

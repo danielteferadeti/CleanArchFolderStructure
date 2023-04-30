@@ -19,7 +19,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BlogApp.Application\BlogApp.Application.csproj" />
+    <ProjectReference Include="..\CleanArch.Application\BlogApp.Application.csproj" />
+    <ProjectReference Include="..\CleanArch.Application\BlogApp.Application.csproj" />
+    <ProjectReference Include="..\CleanArch.Domain\BlogApp.Domain.csproj" />
   </ItemGroup>
 
 </Project>

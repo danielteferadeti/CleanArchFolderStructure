@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\BlogApp.Application\BlogApp.Application.csproj" />
-    <ProjectReference Include="..\..\BlogApp.Persistence\BlogApp.Persistence.csproj" />
+    <ProjectReference Include="..\..\CleanArch.Application\BlogApp.Application.csproj" />
+    <ProjectReference Include="..\..\CleanArch.Persistence\BlogApp.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

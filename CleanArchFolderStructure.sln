@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogApp.Persistence", "Clea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogApp.Api", "src\CleanArch.Api\BlogApp.Api.csproj", "{C7E9F507-7FFC-452C-AABF-D65D298B196C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src_", "src_", "{6557040E-266D-40FD-B0C2-1FD9B375D2D5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6557040E-266D-40FD-B0C2-1FD9B375D2D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

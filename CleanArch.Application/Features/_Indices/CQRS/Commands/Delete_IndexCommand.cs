@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArch.Application.Features._Indices.CQRS.Commands
+namespace BlogApp.Application.Features._Indices.CQRS.Commands
 {
     public class Delete_IndexCommand : IRequest
     {

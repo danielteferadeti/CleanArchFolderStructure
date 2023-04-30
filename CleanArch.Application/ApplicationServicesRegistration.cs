@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MediatR;
 
-namespace CleanArch.Application
+namespace BlogApp.Application
 {
     public static class ApplicationServicesRegistration
     {

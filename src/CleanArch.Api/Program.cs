@@ -1,5 +1,5 @@
-using CleanArch.Application;
-using CleanArch.Persistence;
+using BlogApp.Application;
+using BlogApp.Persistence;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -35,7 +35,7 @@ if (app.Environment.IsDevelopment())
 app.UseCors("CorsPolicy");
 app.UseAuthentication();
 app.UseSwagger();
-app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CleanArch.Api v1"));
+app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "BlogApp.Api v1"));
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

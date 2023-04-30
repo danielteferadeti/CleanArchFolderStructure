@@ -1,17 +1,17 @@
 ﻿using AutoMapper;
-using CleanArch.Application.Contracts.Persistence;
-using CleanArch.Application.Features._Indices.CQRS.Commands;
-using CleanArch.Application.Features._Indices.DTOs.Validators;
-using CleanArch.Application.Responses;
+using BlogApp.Application.Contracts.Persistence;
+using BlogApp.Application.Features._Indices.CQRS.Commands;
+using BlogApp.Application.Features._Indices.DTOs.Validators;
+using BlogApp.Application.Responses;
 using MediatR;
-using CleanArch.Domain;
+using BlogApp.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArch.Application.Features._Indices.CQRS.Handlers
+namespace BlogApp.Application.Features._Indices.CQRS.Handlers
 {
     public class Create_IndexCommandHandler : IRequestHandler<Create_IndexCommand, BaseCommandResponse>
     {

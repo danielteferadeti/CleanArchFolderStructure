@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using CleanArch.Application.Contracts.Persistence;
-using CleanArch.Application.Features._Indices.CQRS.Queries;
-using CleanArch.Application.Features._Indices.DTOs;
+using BlogApp.Application.Contracts.Persistence;
+using BlogApp.Application.Features._Indices.CQRS.Queries;
+using BlogApp.Application.Features._Indices.DTOs;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArch.Application.Features._Indices.CQRS.Handlers
+namespace BlogApp.Application.Features._Indices.CQRS.Handlers
 {
     public class Get_IndexListQueryHandler : IRequestHandler<Get_IndexListQuery, List<_IndexDto>>
     {

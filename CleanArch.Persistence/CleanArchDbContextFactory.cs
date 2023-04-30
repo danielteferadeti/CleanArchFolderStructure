@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace CleanArch.Persistence
+namespace BlogApp.Persistence
 {
     public class CleanArchDbContextFactory : IDesignTimeDbContextFactory<CleanArchDbContext>
     {

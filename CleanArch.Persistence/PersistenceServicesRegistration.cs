@@ -1,5 +1,5 @@
-﻿using CleanArch.Application.Contracts.Persistence;
-using CleanArch.Persistence.Repositories;
+﻿using BlogApp.Application.Contracts.Persistence;
+using BlogApp.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArch.Persistence
+namespace BlogApp.Persistence
 {
     public static class PersistenceServicesRegistration
     {

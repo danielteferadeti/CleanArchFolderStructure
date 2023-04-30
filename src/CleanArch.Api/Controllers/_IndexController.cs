@@ -23,7 +23,6 @@ namespace CleanArch.Api.Controllers
         [HttpGet]
         public async Task<ActionResult<List<_IndexDto>>> Get()
         {
-            Console.WriteLine("hereee");
             var indices = await _mediator.Send( new Get_IndexListQuery() );
             return Ok(indices);
         }

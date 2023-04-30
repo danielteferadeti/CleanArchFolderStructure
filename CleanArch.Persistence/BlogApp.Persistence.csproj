@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CleanArch.Application\BlogApp.Application.csproj" />
+    <ProjectReference Include="..\BlogApp.Application\BlogApp.Application.csproj" />
   </ItemGroup>
 
 </Project>
